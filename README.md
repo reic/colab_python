@@ -1,5 +1,5 @@
 # colab_python
-這一個瑞課擺放運用 Colab 平台開發出來的一些小空間的放置空間。
+這一個放置運用 Colab 平台開發出來的一些小空間的放置空間。   by 瑞課
 
 # 語音轉文字工具
 [錄音檔轉文字.ipynb](https://github.com/reic/colab_python/blob/main/%E9%8C%84%E9%9F%B3%E6%AA%94%E8%BD%89%E6%96%87%E5%AD%97.ipynb)採用 Python 開發，可應用於訪談錄音檔轉文字、影片的字幕的生成，及其它相關應用。
