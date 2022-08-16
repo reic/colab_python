@@ -12,7 +12,10 @@
 - 2021/5/9 修正因檔名無法產生 OTR 檔的問題，謝謝「彩虹小馬」的回饋
 - 2021/5/12 增加不同翻譯語言變數的設定，並於檔案中提供語系參考表。 謝謝 chin ho Lau 的回饋。
 
-## 關鍵字擴展工具
+# 關鍵字擴展工具
 [技術議題關鍵字擴展.ipynb](https://github.com/reic/colab_python/blob/main/%E6%8A%80%E8%A1%93%E8%AD%B0%E9%A1%8C%E9%97%9C%E9%8D%B5%E5%AD%97%E6%93%B4%E5%B1%95.ipynb)採用 Python 開發，使用政府開放資料：民國 105-109年的政府研究資訊網 (grb.gov.tw) 公開資料做為資料集。
 
 對於不理解的議題，可以透過此工具了解**特定關鍵字**之相關技術，加速對於特定技術領域的理解。
+
+# 文字檔轉 epub
+[Text_to_Epub.ipynb](https://github.com/reic/colab_python/blob/main/Text_to_Epub.ipynb)採用 python 開發，進行資料處理將文字檔轉成多個 md 檔，再透過 colab 系統的 pandoc 套件，完成 md to epub 的轉換。
