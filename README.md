@@ -18,4 +18,6 @@
 對於不理解的議題，可以透過此工具了解**特定關鍵字**之相關技術，加速對於特定技術領域的理解。
 
 # 文字檔轉 epub
-[Text_to_Epub.ipynb](https://github.com/reic/colab_python/blob/main/Text_to_Epub.ipynb)採用 python 開發，進行資料處理將文字檔轉成多個 md 檔，再透過 colab 系統的 pandoc 套件，完成 md to epub 的轉換。
+[Text_to_Epub.ipynb](https://github.com/reic/colab_python/blob/main/Text_to_Epub.ipynb) 採用 python 開發，進行資料處理將文字檔轉成多個 md 檔，再透過 colab 系統的 pandoc 套件，完成 md to epub 的轉換。
+
+在這一個程式中，首次引入 python 模組檢查的概念，撰寫了一個 modulechk 的函數，並在 import 模組前檢查系統是否已有安裝此模組，如果沒有就先安裝再 import。這一個是透過 os 模組的 popen 函數取得 python 套件的安裝列表，再檢查要 import 的模組是否在已安裝列表內；若模組在列表不存在，則透過 os.system 安裝需要 import 的模組。
